@@ -54,3 +54,23 @@ bananas + apples
 bananas - apples
 ```
 
+##Matrices practice
+
+```{r}
+##one way to make a matrix is a sequence of values with a given dimension - default for sequence with no by = is 1
+
+my_values <- seq(from = 1, to = 10)
+
+another_sequence <- seq(from = 1, to = 10, length = 200)
+
+my_matrix <- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+my_matrix
+
+##can do matrix math, scalar multiplier
+
+5*my_matrix
+
+my_matrix * my_matrix
+
+my_matrix^2
+```
