@@ -74,3 +74,10 @@ my_matrix * my_matrix
 
 my_matrix^2
 ```
+
+making more changes to do the same github stage commit push with commands in the terminal (need to save to get the fils to show up in 'git' tab, don't need to knit because don't need html)
+
+command is git_add
+
+
+
