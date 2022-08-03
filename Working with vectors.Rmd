@@ -1,0 +1,56 @@
+---
+title: "Working with vectors"
+author: "Erica Bishop"
+date: '`r Sys.Date()`'
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+##Making vectors
+
+```{r}
+####creating vectors
+
+marmots <- c("blue", "green", 4, "yellow")
+
+##cannot have different classes within a vector, so here everything is assigned as a character, even numbers becuase characters are most flexible. Pay attention to class of objects! To check the class, use class function
+
+class(marmots)
+
+```
+
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.8, 8.5)
+
+```
+
+```{r}
+class(pika)
+```
+practice with vector math:
+
+```{r}
+
+#scalar multiplier - also be careful with what to store v. what to just return without storing
+
+5.2*pika
+##the above is not stored, if we want to store this output:
+
+scalar_example1 <- 5.2 * pika
+
+scalar_example1
+
+###more examples
+
+bananas <- c(1,2,3)
+
+apples <- c(6,7,8)
+
+bananas + apples
+bananas - apples
+```
+
