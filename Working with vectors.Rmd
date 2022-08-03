@@ -79,5 +79,9 @@ making more changes to do the same github stage commit push with commands in the
 
 command is git_add
 
+the terminal in R is just showing the same terminal from local computer
+
+practicing git commands in terminal one more time
+
 
 
