@@ -83,5 +83,7 @@ the terminal in R is just showing the same terminal from local computer
 
 practicing git commands in terminal one more time
 
+## auguts 8 
+making changes through the terminal, save, commit, push and pull through terminal
 
 
